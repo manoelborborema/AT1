@@ -5,9 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vp dev",
+    "api": "node server/index.js",
     "build": "vp build",
     "preview": "vp preview",
     "prepare": "vp config"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
   },
   "devDependencies": {
     "vite": "npm:@voidzero-dev/vite-plus-core@1.4.0",
